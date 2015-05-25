@@ -1,11 +1,10 @@
 FROM ubuntu:14.04
 
-RUN \
-apt-get update && \
-apt-get -y upgrade && \
-apt-get install -y build-essential && \
-apt-get install -y software-properties-common && \
-apt-get install -y curl git unzip vim wget && \
+RUN apt-get update
+RUN apt-get -y upgrade
+RUN apt-get install -y build-essential
+RUN apt-get install -y software-properties-common
+RUN apt-get install -y curl git unzip vim wget
 
 # ADD root/.bashrc /root/.bashrc
 
