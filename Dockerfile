@@ -1,8 +1,8 @@
 FROM ubuntu:14.04
 
-RUN apt-get install -y build-essential
-RUN apt-get install -y software-properties-common
-RUN apt-get install -y curl git unzip vim wget
+RUN sudo apt-get install -y build-essential
+RUN sudo apt-get install -y software-properties-common
+RUN sudo apt-get install -y curl git unzip vim wget
 
 # ADD root/.bashrc /root/.bashrc
 
