@@ -1,6 +1,6 @@
 # Dock
 
-docker build -t="dockerfile/ubuntu" github.com/dockerman/dock
+docker build -t="dockerman/dock" github.com/dockerman/dock
 
-docker run -it --rm dockerfile/ubuntu
+docker run -it --rm dockerman/dock
 
