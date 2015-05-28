@@ -1,6 +1,5 @@
 FROM ubuntu:14.04
 
-RUN sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list
 RUN sudo apt-get -y update
 RUN sudo apt-get -y upgrade
 RUN sudo apt-get install -y build-essential
